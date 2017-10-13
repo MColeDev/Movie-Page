@@ -14,9 +14,9 @@
 
 **Navigate to MoviePage-master directory and run entertainment_center.py**
 
-**cd downloads/MoviePage-master**
+`cd downloads/MoviePage-master`
 
-**python entertainment_center.py**
+`python entertainment_center.py`
 
 
 
