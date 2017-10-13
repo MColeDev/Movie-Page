@@ -1,7 +1,9 @@
 import media
 import fresh_tomatoes
 
-# Data for each movie is entered so it can be passed to the corresponding webpage
+""" Data for each movie is entered so it can be passed
+    to the corresponding webpage """
+
 toy_story = media.Movie(
     "Toy Story",
     "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
@@ -34,5 +36,6 @@ highlander = media.Movie(
 
 movies = [toy_story, avatar, highlander, alien, titan_ae, cloud_atlas]
 
-# This generates an HTML file which accepts the information from the movies list
+""" This generates an HTML file which accepts the information
+    from the movies list """
 fresh_tomatoes.open_movies_page(movies)
